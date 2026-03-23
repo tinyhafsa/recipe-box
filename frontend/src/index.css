@@ -1,0 +1,54 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Voces&display=swap');
+
+/* theme variables */
+:root {
+  /* default colors */
+  --color-one: #faf4df;
+  --color-two: #cac195;
+  --color-three: #ecd1c3;
+  --color-four: #ca927e;
+
+  /* default backgrounds */
+  --bg-top: none;
+  --bg-bottom: none;
+  --bg-front: none;
+  --bg-back: none;
+  --bg-admin: none;
+  --bg-home:none;
+
+  --font-one: "Limelight", sans-serif;
+  --font-two: "Nobile", sans-serif;
+  --font-three: "Voces", sas-serif;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent; /* hides track */
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-three);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-four);
+}
+
+/* fonts */
+h1, h4 {
+  font-family: var(--font-one);
+}
+h2, h2, input {
+  font-family: var(--font-three);
+}
+p, button, label {
+  font-family: var(--font-two);
+}
+
+/* button hover */
+button:hover {
+  opacity: 0.85;
+}
